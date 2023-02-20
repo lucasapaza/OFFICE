@@ -1,0 +1,16 @@
+<Configuration>
+  <Add OfficeClientEdition="64"  Channel="PerpetualVL2021">
+     <Product ID="ProPlus2021Volume" PIDKEY="T3N47-WVHW9-VCT2V-QKP29-P393W" >
+         <Language ID="es-es" />
+    </Product>
+    <Product ID="VisioPro2021Volume" PIDKEY="M9N3Y-CCB6D-J66FD-KKGF6-8B799">
+        <Language ID="es-es" />
+    </Product>
+    <Product ID="ProjectPro2021Volume" PIDKEY="2NYG6-3BBBX-M97JW-B7DFV-G6RMB" >
+        <Language ID="es-es" />
+    </Product>
+  </Add>
+  <RemoveMSI />
+  <Updates Enabled="TRUE" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+</Configuration>
